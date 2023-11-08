@@ -28,56 +28,73 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Kishan, and I am passionate about creating
-            digital content for the web. My interest in web development was
-            sparked in 2016 when I created my first project called Lavish, a
-            social media app built using React and Node.js.
+            Hi! My name is Kelvin, I am passionate about building efficient
+            softwares. Ever since I created my first mock website in 2017, I've wanted to become a software developer capable of building complete
+            applications from start to finish. Specializing in one aspect of the
+            web wasn’t enough for me. Don’t get me wrong; there’s nothing wrong
+            with specialization. It’s just that I had a passion for building
+            softwares from end to end.
           </p>
           <p className="about-grid-info-text">
             Fast-forward to today, I specialize in designing and developing
             high-quality solutions that delight our clients and exceed their
-            expectations at{" "}
-            <Link href="https://rapidops.com" className="link" target="_blank">
+            expectations at ThinkPeople Limited
+            {/* <Link href="https://rapidops.com" className="link" target="_blank">
               Rapidops.
-            </Link>
+            </Link> */}
           </p>
 
           <p className="about-grid-info-text">
-            Additionally, I share my knowledge and passion with the world
-            through my YouTube channel, where I demonstrate how to build
-            full-stack applications.
-          </p>
-          <p className="about-grid-info-text">
-            I am also working on a new project called&nbsp;
+            Additionally, I share my knowledge and passion with the world by
+            being a web development instructor, I have love talking about the
+            web and javascript. Find out more on my{" "}
             <Link
               className="link"
               target="_blank"
-              href="https://frontendvita.com"
+              href="https://www.linkedin.com/in/olamilekan-obisesan-5287441b9/"
             >
-              FrontendVita,
+              LinkedIn
             </Link>
-            &nbsp;aimed at enhancing frontend development skills.
+          </p>
+          <p className="about-grid-info-text">
+            I am currently building efficient softwares for ThinkPeople Limited and
+            working on my first personal Saas&nbsp;
+            <Link
+              className="link"
+              target="_blank"
+              href="https://ease-azure.vercel.app/"
+            >
+              Ease
+            </Link>
+            &nbsp;aimed at giving students ease in reading their pdfs.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
           </p>
           <ul className="about-grid-info-list">
+            <li className="about-grid-info-list-item">HTML</li>
+            <li className="about-grid-info-list-item">CSS/SCSS</li>
+            <li className="about-grid-info-list-item">Javascript</li>
             <li className="about-grid-info-list-item">React</li>
-            <li className="about-grid-info-list-item">React Native</li>
             <li className="about-grid-info-list-item">Next.js</li>
             <li className="about-grid-info-list-item">Typescript</li>
             <li className="about-grid-info-list-item">Redux Toolkit</li>
+            <li className="about-grid-info-list-item">Zucstand</li>
             <li className="about-grid-info-list-item">Node.js</li>
-            <li className="about-grid-info-list-item">Elasticsearch</li>
-            <li className="about-grid-info-list-item">Kibana</li>
-            <li className="about-grid-info-list-item">CSS</li>
+            <li className="about-grid-info-list-item">Express.js</li>
+            <li className="about-grid-info-list-item">MongoDB</li>
+            <li className="about-grid-info-list-item">Prisma</li>
+            <li className="about-grid-info-list-item">Firebase</li>
+            <li className="about-grid-info-list-item">Tailwind</li>
+            <li className="about-grid-info-list-item">Sanity.io</li>
+            <li className="about-grid-info-list-item">Git/Github</li>
           </ul>
         </div>
         <div className="about-grid-photo">
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/kishan.jpeg" alt="profile" fill />
+            <Image src="/olami.jpg" alt="profile" fill />
           </div>
         </div>
       </div>

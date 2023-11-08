@@ -3,34 +3,38 @@ import React from "react";
 import {
   FiGithub,
   FiInstagram,
-  FiYoutube,
   FiLinkedin,
   FiTwitter,
 } from "react-icons/fi";
+import {FaMedium} from "react-icons/fa6"
 import { motion } from "framer-motion";
 
 function SocialIcons() {
   const socialLinks = [
-    { name: "Github", icon: <FiGithub />, link: "https://www.github.com" },
-    {
-      name: "Youtube",
-      icon: <FiYoutube />,
-      link: "https://www.youtube.com/KishanSheth21/",
-    },
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
-      link: "https://www.linkedin.com/in/koolkishan/",
+      link: "https://www.linkedin.com/in/olamilekan-obisesan-5287441b9/",
+    },
+    {
+      name: "Medium",
+      icon: <FaMedium />,
+      link: "https://medium.com/@olamilekan.obisesan1",
     },
     {
       name: "Instagram",
       icon: <FiInstagram />,
-      link: "https://instagram.com/koolkishansheth",
+      link: "https://instagram.com/sesan_kelvin",
+    },
+    {
+      name: "Github",
+      icon: <FiGithub />,
+      link: "https://www.github.com/kelvin-oo",
     },
     {
       name: "Twitter",
       icon: <FiTwitter />,
-      link: "https://twitter.com/koolkishansheth",
+      link: "https://twitter.com/sesan_kelvin",
     },
   ];
   return (

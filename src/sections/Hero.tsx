@@ -27,7 +27,7 @@ function Hero() {
           delay: 0.75,
         }}
       >
-        Kishan Sheth.
+        Kelvin.
       </motion.h2>
       <motion.h3
         className="hero-title-large hero-title-sub"
@@ -39,7 +39,7 @@ function Hero() {
           delay: 1.05,
         }}
       >
-        I craft things for the web.
+        I build efficient Software Only.
       </motion.h3>
       <motion.p
         className="hero-text"
@@ -51,12 +51,13 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a software engineer with expertise in creating top-notch
-        digital experiences. My current focus is on developing products that are
-        accessible and centered around user needs, as part of the team at&nbsp;
-        <Link href="https://rapidops.com" target="_blank" className="link">
+        I&apos;m a full-stack software developer with expertise in creating
+        top-notch digital experiences. My current focus is on developing
+        softwares that are efficient, fast, accessible and centered around user
+        needs.
+        {/* <Link href="https://rapidops.com" target="_blank" className="link">
           Rapidops.
-        </Link>
+        </Link> */}
       </motion.p>
       <motion.div
         className="hero-button"
@@ -69,8 +70,8 @@ function Hero() {
         }}
       >
         <Button
-          text="Check out my course"
-          link="https://youtube.com/kishansheth21"
+          text="Let's connect!"
+          link="https://www.linkedin.com/in/olamilekan-obisesan-5287441b9/"
         />
       </motion.div>
     </div>

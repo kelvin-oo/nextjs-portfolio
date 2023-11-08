@@ -23,7 +23,7 @@ function Index() {
   return (
     <div className="app">
       <Head>
-        <title>Kishan Sheth</title>
+        <title>Kelvin.olami</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       {showContent && (
@@ -34,8 +34,8 @@ function Index() {
           <main>
             <Hero />
             <About />
-            <Experience />
-            <Projects />
+            {/* <Experience />
+            <Projects /> */}
             <Contact />
           </main>
           <Footer />
